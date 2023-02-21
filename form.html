@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./favicon-form.png" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1><u>Registeration Form</u></h1>
+    <form action="submit">
+      <label for="firstName">First Name:</label>
+      <input
+        type="text"
+        id="firstName"
+        value=""
+        name="firstName"
+        placeholder="your first name"
+      />
+      <br />
+      <label for="lastName">Last Name:</label>
+      <input
+        type="text"
+        id="lastName"
+        value=""
+        name="lastName"
+        placeholder="your last name"
+      />
+      <br />
+      <label for="nickName">Nick Name:</label>
+      <input
+        type="text"
+        id="nickName"
+        value=""
+        name="nickName"
+        placeholder="your nick name"
+      />
+      <br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        value="mrbeast@gmail.com"
+        name="email"
+        placeholder="your email"
+      />
+      <br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        value=""
+        name="password"
+        placeholder="your password"
+      />
+      <br />
+      <label for="datetime">DOB:</label>
+      <input
+        type="datetime-local"
+        id="datetime"
+        value=""
+        name="datetime"
+        placeholder="your password"
+      />
+      <br />
+      <label for="gender">Gender:</label>
+      <div>
+        <input type="radio" id="male" value="Male" name="gender" />
+        <label for="male">Male 💁🏻‍♂️</label>
+      </div>
+      <div>
+        <input type="radio" id="female" value="F👩🏻emale" name="gender" />
+        <label for="female">Female 👩🏻</label>
+      </div>
+      <div>
+        <input type="radio" id="nullgender" value="nullgender" name="gender" />
+        <label for="nullgender">Rather not say</label>
+      </div>
+      <label for="mobile">Mobile number:</label>
+      <input type="tel" name="mobile" id="mobile" value="" maxlength="10" placeholder="xxx-xxx-xxxx">
+      <br>
+      <label for="postalCode">Postal code:</label>
+      <input type="text" name="postalCode" id="postalCode" value=""  maxlength="5" placeholder="xxxxx">
+      <br>
+      <label for="detail">Tell us about you:</label>
+      <br>
+      <textarea name="detail" id="detail" cols="30" rows="10" placeholder="write a short introduction about yourself"></textarea>
+      <br>
+      <button type="submit">Submit</button>
+      <button type="button">Cancel</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
